@@ -21,7 +21,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory('/HDFilms/'),
+  history: createWebHistory('/HDFilms'),
   routes,
 });
 
