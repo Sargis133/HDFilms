@@ -43,7 +43,7 @@ const isShowModal = computed({
 })
 const modalTitle = computed(() => props.title);
 const modalText = computed(() => props.text);
-const popupStyles = computed<T_PopupType>(() => props.popupType);
+const popupStyles = computed<T_PopupType>(() => props.popupType || 'default');
 
 setTimeout(() => {
   isShowModal.value = false

@@ -466,7 +466,7 @@ export const allCartoonApi: I_CartoonApi[] = [
         nameRu: 'Маша и Медведь.',
         imgSm: 'masha-medved-min.jpg',
         imgLg: 'masha-medved-md.jpg',
-        video: 'С ДНЁМ РОЖДЕНИЯ  Пой с Машей! 🎙 Маша и Медведь  Раз в году.mp4',
+        video: 'happy-bd-masha.mp4',
         duration: 3,
         year: 2021,
         type: 'cartoon',
