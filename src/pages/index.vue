@@ -87,7 +87,7 @@ function onFilterRunnerSliderImgFunc(category:T_MovieType = 'movie') {
       title: locale.value === 'en' ? item.nameEn : item.nameRu,
       text: item.year + '',
       value: item.id,
-      imgPath: "/img/films/" + item.imgSm,
+      imgPath: "img/films/" + item.imgSm,
     };
   })
 }

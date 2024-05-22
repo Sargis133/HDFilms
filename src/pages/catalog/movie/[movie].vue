@@ -12,7 +12,7 @@
     <div class="movie-page__movie-info">
       <div class="movie-info__movie-image">
         <img
-          :src="'/img/films/' + findMovie.imgLg"
+          :src="'img/films/' + findMovie.imgLg"
           alt="movie-image"
           class="movie-image__image"
         />

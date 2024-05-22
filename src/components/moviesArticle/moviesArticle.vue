@@ -10,7 +10,7 @@
           <div class="movie-item__img-box">
             <img
               class="movie-item__img"
-              :src="'/img/films/' + item.imgLg"
+              :src="'img/films/' + item.imgLg"
               alt="movie-img"
             />
           </div>

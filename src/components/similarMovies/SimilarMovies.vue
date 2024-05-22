@@ -3,7 +3,7 @@
   <div class="movies-aside__movies" v-for="movie in allMovies" :key="movie.nameEn">
     <router-link :to="'/catalog/'+ movie.type + '/movie/' + movie.id" @click="onScrollToTop">
       <div class="movies-aside__image">
-        <img :src="'/img/films/' + movie.imgSm" alt="movie-image" >
+        <img :src="'img/films/' + movie.imgSm" alt="movie-image" >
       </div>
       <div class="movies-aside__title">
         <p>{{ locale === 'en' ? movie.nameEn : movie.nameRu }}</p>

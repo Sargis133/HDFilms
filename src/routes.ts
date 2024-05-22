@@ -1,4 +1,4 @@
-import { createWebHistory, createRouter } from "vue-router";
+import { createRouter, createWebHashHistory} from "vue-router";
 import Index from "./pages/index.vue";
 import Default from "./layouts/default.vue";
 import Login from "./pages/login.vue";
@@ -21,7 +21,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory('/HDFilms'),
+  history: createWebHashHistory('/HDFilms/'),
   routes,
 });
 
