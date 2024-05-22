@@ -1,0 +1,1 @@
+export type T_PopupType = 'success' | 'error' | 'default'
