@@ -37,6 +37,7 @@
             <div class="search-box__item-img">
               <img :src="'img/films/' + movie.imgSm" alt="movie-img">
             </div>
+
             <div class="search-box__item-info">
               <p class="search-box__item-info__title">{{ locale === 'en' ? movie.nameEn : movie.nameRu }}</p>
               <p class="search-box__item-info__subtitle">{{ locale === 'en' ? movie.nameRu : movie.nameEn }}</p>
