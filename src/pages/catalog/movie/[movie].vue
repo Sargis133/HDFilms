@@ -95,7 +95,7 @@
       </div>
       <div class="movie-page__video-aside__video-box" v-else>
         <video
-          :src="'/video/films/' + findMovie.video"
+          :src="'video/films/' + findMovie.video"
           controls
           class="video-box__video"
           id="movie-video"
